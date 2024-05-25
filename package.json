@@ -12,5 +12,9 @@
   "description": "",
   "dependencies": {
     "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint": "^8.57.0"
   }
 }
