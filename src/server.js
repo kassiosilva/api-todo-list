@@ -4,4 +4,4 @@ const server = http.createServer((req, res) => {
   res.end('Olá Kássio')
 })
 
-server.listen(3333)
+server.listen(process.env.PORT || 3333)
