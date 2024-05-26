@@ -1,11 +1,14 @@
-import http from 'node:http'
+import express from 'express'
 import { connectDB } from './database.js'
+import { authRouter } from './routes/auth.js'
+
+const server = express()
 
 connectDB()
 
-const server = http.createServer((req, res) => {
-  res.end('Olá Kássio')
-})
+server.use(express.json())
+
+server.use('/auth', authRouter)
 
 server.listen(process.env.PORT || 3333, () => {
   console.log(`Servidor rodando na porta ${process.env.PORT} 🚀️`)
