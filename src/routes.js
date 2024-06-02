@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 
 import { authenticate } from './middlewares/auth.js'
 
@@ -12,6 +13,8 @@ import {
 } from './controllers/task.js'
 
 export const routes = express.Router()
+
+routes.use(cors())
 
 // Autenticação
 routes.post('/register', register)
