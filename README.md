@@ -1,8 +1,8 @@
 # API Minhas Tarefas
 
-> Esse backend traz todas as principais funcionalidades de uma lista de tarefas, além de persistir as tarefas em um banco de dados. Essa API foi desenvolvida com o intuito de colocar em prática todos os conceitos aprendidos na disciplina de desenv plataformas web.
+> Foi desenvolvido também o **front end Minhas listas**. Se quiser olhar como ficou [clique aqui](https://github.com/kassiosilva/todolist-frontend).
 
-Foi desenvolvido também o **front end Minhas listas**. Se quiser olhar como ficou [clique aqui](https://github.com/kassiosilva/todolist-frontend).
+Esse backend traz todas as principais funcionalidades de uma lista de tarefas, além de persistir as tarefas em um banco de dados. Essa API foi feita como trabalho final da disciplina de desenv plataformas web.
 
 ## ⚙️ Funcionalidades
 
