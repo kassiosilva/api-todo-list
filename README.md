@@ -1,4 +1,4 @@
-# Api Minhas Tarefas
+# API Minhas Tarefas
 
 > Esse backend traz todas as principais funcionalidades de uma lista de tarefas, além de persistir as tarefas em um banco de dados. Essa API foi desenvolvida com o intuito de colocar em prática todos os conceitos aprendidos na disciplina de sistemas para web.
 
@@ -34,7 +34,7 @@ npm install
 
 Logo após, defina um arquivo `.env` na raiz do projeto e copie todas as variavéis do `.env.example` e cole nele. Preencha cada uma das variáveis com seus valores correspondentes.
 
-```txt
+```
 MONGODB_URI="coloque aqui sua url de conexão com o MongoDB"
 PORT=3333
 SECRET_KEY="minhachavesecreta"
